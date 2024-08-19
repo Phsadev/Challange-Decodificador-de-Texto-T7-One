@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="shortcut icon" href="./Assets/Logo.png" type="image/x-icon">
+    <title>Codificador e Decodificador</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./Assets/Logo.png" alt="Logo da Alura">
+        <h1>Mensagens Codificadas</h1>
+    </header>
+
+    <main class="main container">
+        <section class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+
+                <div class="informacao">
+                    <img class="exclamacao" src="./Assets/bi_exclamation-circle-fill (1).png" alt="Ponto de exclamação">
+                    <h6> Não utilize letras minúsculas, nem acentos.</h6>
+                </div>
+            </div>
+
+            <div id="output">
+                <img src="./Assets/High quality products 1 1.png"
+                    alt="Boneco segurando observando um diamante com uma lupa">
+                <h2>Sua mensagem aparecerá aqui</h2>
+                <span>Digite o texto para criptografar ou descriptografar</span>
+            </div>
+        </section>
+        <section class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <H3>Desenvolvido por Paulo Alves - Challenge One Alura/Oracle</H3>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+
+
+</html>
